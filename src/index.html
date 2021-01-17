@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Rest API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        .con {
+            width: 350px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .con2 {
+            width: 800px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 600px;
+            height: 350px;
+            border: 2px solid black;
+            margin: .5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Web Scraper</h1>
+        <div class="con">
+            <a href="/indiatimes/sample">/indiatimes/sample</a>
+            <span>Gives 10 sample articles</span>
+        </div>
+        <div class="con">
+            <a href="/moneycontrol/sample">/moneycontrol/sample</a>
+            <span>Gives 10 sample articles</span>
+        </div>
+        <div class="con">
+            <a href="/firstpost/sample">/firstpost/sample</a>
+            <span>Gives 10 sample articles</span>
+        </div>
+        <div class="con">
+            <a href="/indianexpress/sample">/indianexpress/sample</a>
+            <span>Gives 10 sample articles</span>
+        </div>
+        <br><br>
+        <div class="con2">
+            <a href="/indiatimes">/indiatimes</a>
+            <span>Gets 6372 articles scraped from 100 pages from each category (sports, business, news)</span>
+        </div>
+        <div class="con2">
+            <a href="/moneycontrol">/moneycontrol</a>
+            <span>Gets 6504 articles scraped from 100 pages from each category (sports, business, news)</span>
+        </div>
+        <div class="con2">
+            <a href="/firstpost">/firstpost</a>
+            <span>Gets 6417 articles scraped from 100 pages from each category (sports, business, news)</span>
+        </div>
+        <div class="con2">
+            <a href="/indianexpress">/indianexpress</a>
+            <span>Gets 6594 articles scraped from 100 pages from each category (sports, business, news)</span>
+        </div>
+        <br>
+        <small>Please reload links several times as i'm hosting this on free tier it takes some time to load</small>
+        <br>
+        <br>
+        <h4>Related Images</h4>
+        <img src="/1.jpg" alt="">
+        <br>
+        <img src="/2.jpg" alt="">
+
+    </div>
+</body>
+
+</html>
