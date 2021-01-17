@@ -25,6 +25,12 @@
             border: 2px solid black;
             margin: .5rem;
         }
+
+        .code {
+            width: 500px;
+            background: whitesmoke;
+            padding: .5rem;
+        }
     </style>
 </head>
 
@@ -68,6 +74,16 @@
         <small>Please reload links several times as i'm hosting this on free tier it takes some time to load</small>
         <br>
         <br>
+        <div class="code">
+            <p>How to use API?</p>
+            <code>
+                axios.get("https://webscraperr.herokuapp.com/indiatimes/sample").then((url) => {
+                let data = url.data;
+                console.log(data);
+                });
+            </code>
+            <i>Gives array of objects as output</i>
+        </div>
         <h4>Related Images</h4>
         <img src="/1.jpg" alt="">
         <br>
